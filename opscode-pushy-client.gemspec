@@ -15,8 +15,8 @@ Gem::Specification.new do |gem|
   gem.require_paths = ["lib"]
   gem.version       = PushyClient::VERSION
 
-  gem.add_dependency "chef", "~> 12.8"
-  gem.add_dependency "ohai", "~> 8.6"
+  gem.add_dependency "chef", "= 12.18.31" # pin to latest pre-13
+  gem.add_dependency "ohai", "= 8.23.0" # pin to latest pre-13
   gem.add_dependency "ffi-rzmq"
   gem.add_dependency "uuidtools"
 
